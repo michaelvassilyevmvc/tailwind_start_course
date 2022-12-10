@@ -513,6 +513,42 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/wave\'\)\] {
+  background-image: url('/wave');
+}
+
+.bg-\[url\(\'\/wave\.svg\'\)\] {
+  background-image: url('/wave.svg');
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
